@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+# patient data never goes in this repo
+*.nii
+*.nii.gz
+*.pth
+results/
+data/
