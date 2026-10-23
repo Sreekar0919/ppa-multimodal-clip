@@ -25,6 +25,7 @@ clinical note ──OpenAI text-embedding-3-large──▶ 3072-d ──linear p
 | `batch_preprocess_setup.py` | Batch MRI preprocessing and dataset setup (BIDS or flat naming) |
 | `batch_brainiac_feature_extraction.py` | BrainIAC features for a folder of scans |
 | `single_patient_pipeline.py`, `create_visualizations.py` | One-patient walkthrough and figures |
+| `demo/multimodal_ppa_predictor.ipynb` (+ `.py`) | Self-contained demo on synthetic data (51 patients, 3 variants): pairwise CLIP analysis of how well each modality pair separates PPA subtypes (AUC) |
 | `create_synthetic_data.py`, `test_unified_pipeline.py` | Synthetic scans and notes for testing without patient data |
 
 ## Run on synthetic data
